@@ -13,6 +13,3 @@
 # You should have received a copy of the GNU General Public License
 # along with my-bash-files. If not, see <https://www.gnu.org/licenses/>.
 
-
-alias top="btop --utf-force" 
-
