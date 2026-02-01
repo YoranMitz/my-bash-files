@@ -14,6 +14,7 @@
 # along with my-bash-files. If not, see <https://www.gnu.org/licenses/>.
 
 
-source "./aliases.bash"
-source "./my_funcs.bash"
+source "/$__my_bash_files/aliases.bash"
+# source "./my_funcs.bash"
+source "/$__my_bash_files/increase_bash_history_saved.bash"
 
