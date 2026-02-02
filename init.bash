@@ -20,6 +20,6 @@ __BASH_CUSTOM_INIT_LOADED=1
 
 
 source "/$__my_bash_files/aliases.bash"
-# source "./my_funcs.bash"
+source "$__my_bash_files//my_funcs.bash"
 source "/$__my_bash_files/increase_bash_history_saved.bash"
 
