@@ -14,5 +14,11 @@
 # along with my-bash-files. If not, see <https://www.gnu.org/licenses/>.
 
 
+# Avoid double-applying if sourced more than once
+if [[ -n "${__BASH_CUSTOM_ALIASES_LOADED:-}" ]]; then
+  return 0
+fi
+__BASH_CUSTOM_ALIASES_LOADED=1
+
 alias top="btop --utf-force" 
 

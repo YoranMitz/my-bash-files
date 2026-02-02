@@ -13,3 +13,7 @@
 # You should have received a copy of the GNU General Public License
 # along with my-bash-files. If not, see <https://www.gnu.org/licenses/>.
 
+if [[ -n "${__BASH_CUSTOM_FUNCS_LOADED:-}" ]]; then
+  return 0
+fi
+__BASH_CUSTOM_FUNCS_LOADED=1

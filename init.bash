@@ -13,6 +13,11 @@
 # You should have received a copy of the GNU General Public License
 # along with my-bash-files. If not, see <https://www.gnu.org/licenses/>.
 
+if [[ -n "${__BASH_CUSTOM_INIT_LOADED:-}" ]]; then
+  return 0
+fi
+__BASH_CUSTOM_INIT_LOADED=1
+
 
 source "/$__my_bash_files/aliases.bash"
 # source "./my_funcs.bash"
